@@ -1,6 +1,6 @@
 cask "gymgym" do
-  version "1.2"
-  sha256 "c34ecee57017790f29d4c0591c1244a01b795428bf6e7de2fb971381005ff47f"
+  version "1.3"
+  sha256 "3d7ca7d2e9841d47beb42c6cfc553ccfe1b1f938f0eaae22286483e4431d348b"
 
   url "https://github.com/box-kr/gymgym/releases/download/v#{version}/GymGym-#{version}.zip"
   name "GymGym"
