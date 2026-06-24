@@ -1,6 +1,6 @@
 cask "gymgym" do
-  version "1.19"
-  sha256 "48cfd3ccd20bd5a5f9df3d6c4c6abcbeded37094130676593cd9ca9ed09cb3db"
+  version "1.21"
+  sha256 "daf43c05bc491a179062236d9bf3104328f823413a24bd95db1b77adcf2eec68"
 
   url "https://github.com/box-kr/gymgym/releases/download/v#{version}/GymGym-#{version}.zip"
   name "GymGym"
@@ -18,6 +18,6 @@ cask "gymgym" do
   end
 
   zap trash: [
-    "~/Library/Preferences/com.andrew.GymGym.plist",
+    "~/Library/Preferences/kr.box.macos.GymGym.plist",
   ]
 end
